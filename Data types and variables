@@ -1,0 +1,72 @@
+Data types in Python
+Loops 
+Write a Program to calculate sum of numbers in array usng for loop in python
+
+variable = variable is reusable container for storing a value
+           variable bahaves like as if it were the value it containers
+
+
+
+# data types in python
+
+name = "santosh"
+company = "delotte"
+project = "wallmart"
+located = "bengalooru"
+print("my name is:",name,)
+print("my company name is:",company,)
+print("currently iam working on a project:",project,)
+print("which city is located in:",located)
+
+#variables
+
+age = 26
+print("my age is " + str(age) + " years old")
+print("you are" , age , "years old" )
+print(f"you are {age} years old")
+
+# INTEGER
+
+age = 21
+players = 2
+quantity = 5
+
+print(f"you are {age} years old")
+print(f"There are {players} players online")
+print(f"i would like to buy {quantity}kg items in market")
+
+# float
+
+gpa = 6.3
+distance = 5.9
+price = 13.89
+
+print(f"your gpa is {gpa}")
+print(f"i ran {distance}km")
+print(f"The price of product is ${price}")
+
+# string
+
+name = "santosh"
+food = "pizza"
+email = "santoshruppa9618@gmail.com"
+
+print(f"Hello {name}")
+print(f"i like {food}")
+print(f"your email is: {email}")
+
+# Boolean
+
+online =True
+for_sale = False
+running = False
+
+print(f"are you in online? {online}")
+print(f"is that flat for sale - {for_sale}")
+print(f"He is running still : {running}")
+
+if running:
+    print("the player is running")
+else:
+    print("the game is over")
+
