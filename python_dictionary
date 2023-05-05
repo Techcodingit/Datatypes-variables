@@ -54,3 +54,12 @@ print('present dict is:', dict)
 dict['ashok'] = 'hyd'
 dict['uppu'] = 'santosh'
 print("updated dict is:", dict)
+
+################################################
+# using __setitem__ method to add values
+
+dict = {'key': 'geeks', 'key2': 'geetam'}
+
+dict.__setitem__('newkey2', 'santosh')
+print(dict)
+
