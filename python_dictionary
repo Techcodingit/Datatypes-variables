@@ -1,0 +1,56 @@
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.pop("model")
+print(thisdict)
+
+# we use del method remove value whatever in program
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+del thisdict["model"]
+print(thisdict)
+# when we use clear() keyword to delete all the content of value
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.clear()
+print(thisdict)
+
+# using removed_value
+
+d = {'k1': 1, 'k2': 2, 'k3': 3,'a': 33}
+
+removed_value = d.pop('k3', None)
+print(d)
+# {'k1': 1, 'k2': 2, 'k3': 3}
+
+print(removed_value)
+# Add keys to the dictonary
+
+dict = {'key1': 'geeks', 'key2': 'fill_me'}
+print("Current Dict is:", dict)
+
+# using the subscript notation
+# Dictionary_Name[New_Key_Name] = New_Key_Value
+dict['key2'] = 'for'
+dict['key3'] = 'geeks'
+print("Updated Dict is:", dict)
+
+######################################
+dict = {'key': 'santosh', 'key22': 'add_me'}
+print("present my dictionary is:", dict)
+#Dictionary_Name[New_Key_Name] = New_Key_Value
+dict = {'santosh': 'devops','ashok': 'python_dev'}
+print('present dict is:', dict)
+
+dict['ashok'] = 'hyd'
+dict['uppu'] = 'santosh'
+print("updated dict is:", dict)
