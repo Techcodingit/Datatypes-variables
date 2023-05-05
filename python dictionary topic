@@ -1,0 +1,44 @@
+person = {
+    'name' :'santosh',
+    'age' : 25,
+    'city' : ['hyderabad','vizag'],
+    'country' : 'india'
+}
+
+print(person)
+person['age'] = 45
+print(person)
+
+person.update({'country':'USA'})
+print(person)
+
+person['pan'] = 'CHSPR12345'
+print(person)
+
+#continue with person 2
+
+person2 = {
+    'name' :'santosh',
+    'age' : 66,
+    'city' : ['hyderabad','vizag'],
+    'country' : 'india'
+}
+print(person2)
+# pop to remove a line
+person2.pop('country')
+print(person2)
+# popitem removes a lost line
+person2.popitem()
+print(person2)
+
+person3 = {
+    'name' :'santosh',
+    'age' : 34,
+    'city' : ['hyderabad','vizag','sklm'],
+    'country' : 'india'
+}
+print(person3)
+del person3['country']
+print(person3)
+person3.clear()
+print(person3)
