@@ -1,0 +1,28 @@
+       k8's setup with AWS EKS
+
+-------------------------------------
+
+we will create one EKS role
+we will create one worker node role
+we will create one EKS cluster service
+--------------------------------------
+we will create one two worker nodes -- on hold
+we will create one EC2 instance for k8s access 
+===========
+
+AWS configuration = access key and secret key
+
+account id AKIAUWY5S7BFM2UER2IY
+secret key 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
+enter region
+=============
+install kubectl  curl -LO https://dl.k8s.io/release/v1.26.0/bin/linux/amd64/kubectl
+to add executable permissons need to modify kubectl so:  chmod +x kubectl
+going to move kubectl to bin directory so that it will access all files and bineries
+in duplicate session  cd /usr/local/bin
+in primary session  mv ./kubectl /usr/local/bin/kubectl
+
+
+we will create one deployment for applications
+we will create one service for application 
+we will create one application from browser
