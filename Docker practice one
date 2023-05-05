@@ -1,0 +1,88 @@
+---
+ - hosts: app
+
+   tasks:
+
+     - name: Fetch the file from the mwiapp01 to master
+
+       run_once: yes
+
+       fetch: src=/tmp/app01-to-app02.jar dest=buffer/ flat=yes
+
+       when: "{{ inventory_hostname == ' ansible worker1' }}"
+
+      - name: Copy the file from ansible-worker1 to 
+
+       copy: src=buffer/app01-to-app02.jar dest=/tmp/ 
+
+       when: "{{ inventory_hostname == 'mwiapp02' }}"
+
+
+
+16/03/2023
+[pkgservers]
+172.31.11.221
+
+
+
+
+
+murali kanaparthi7:52 PM
+Basic Commands of docker
+==================
+
+Docker version --- to check the docker version
+
+Docker info - it will give full infirmatin of your server - which are running and stopped about images container
+
+Docker help - to check any commond options to use.
+
+
+Images commands
+
+docker images --- listing of all images
+docker pull - it will pull the reqired image from docker registory 
+docker rmi - it will remove the docker iamges
+
+
+Container commands
+
+
+docker ps - list out all running container
+doc
+Container commands
+
+docker ps - list out all running container
+docker ps -a - it will list out all the running and stopped container
+docker run centos - it will create docker coantiner - it wont start or login into contaier
+docker run -it centos:7 - it will created docker container and loginto container.
+
+docker start containerID
+docker stop containerID
+docker rm -rf contaierid
+
+docker stat - it will give infirmation about docker conatiner.
+
+docker system df - full info of your docker images and
+Container commands
+
+docker ps - list out all running container
+docker ps -a - it will list out all the running and stopped container
+docker run centos - it will create docker coantiner - it wont start or login into contaier
+docker run -it centos:7 - it will created docker container and loginto container.
+
+docker start containerID
+docker stop containerID
+docker rm -rf contaierid
+
+docker stat - it will give infirmation about docker conatiner.
+
+docker system df - full info of your docker images and
+
+06/04/2023
+sudo apt-get install python-pip
+
+apt-get install pip
+pip install awscli
+
+aws configure
