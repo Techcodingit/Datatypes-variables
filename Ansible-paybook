@@ -1,0 +1,39 @@
+vars: some variables you can define in one seperate file. ---varfile.
+
+var.yml ---name: httpd jenkins ansible
+
+---
+pkg: httpd
+
+===============
+Vars
+===============
+
+---
+- hosts: pkgservers
+  user: root
+  vars:
+      pkg: httpd
+	  tasks:
+	      -name: installation of httpd package with variables
+		   yum: name={{pkg}} state=installed
+		   
+		   yum install httpd
+=======
+vars_files
+=======
+
+abc.yml
+
+---
+pkgl: git
+
+-----------
+
+---
+- hosts: pkgservers
+  user: root
+  vars_files:
+       -abc.yml
+ tasks:
+     -name: installation of OTT package with Var files 
