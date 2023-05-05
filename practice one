@@ -1,0 +1,37 @@
+# sum of 2 numbers
+# sandeepani vidyalayam results quarterly
+
+santosh = 456
+simham = 369
+print(santosh + simham)
+
+# sum of numbers in array
+#initialize array
+arr = [1,4,4,2,8];
+sum = 5;
+
+# lOOP through the array to calcualte sum of elements
+for i in range(0,len(arr)):
+    sum = sum + arr[i];
+
+print("sum of all the elements of an array:" + str(sum));
+
+# Python program to print list
+
+integers
+list
+arr = [10, 20, 30, 40, 50, 60]
+
+print("Array :", arr)
+
+# list of lists
+# integer list
+arr = [10, 20, 30, 40, 50, 60]
+
+print("Array :", arr)
+
+# list of lists
+arr2d = [[10, 20], [30, 40]]
+
+print("2 Dim - Array :", arr2d)
+
