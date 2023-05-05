@@ -1,0 +1,62 @@
+ "updated": "03-11-2022",
+    "models": [
+        {
+            "laptops": "dell",
+            "model":   "7440",
+            "codename": "lattitude",
+            "launched": "05-06-2014",
+            "started":  "09-04-2016"
+            "specifications needed": [
+                "dell (started in 2014 0r latest)",
+                "dell lattitude (2020),
+                "dell big screen(started in 2014 0r latest)",
+                "dell lattitude (latest 2020; lattitude 7550 and lattitude 8640 model",
+                "8gb ram and 512gb hdd memeory",
+                "my laptop is (2014 model)"
+                ]
+
+
+          04-11-2022
+
+{
+    "latest": "04-11-2022",
+    "types": [
+        {
+            "": "DELL",
+            "modele": "2014",
+            "version": "lattitude",
+            "launched":"04-011-2014",
+            "started": "08-07-2016",
+            "specifications needed": [
+                "dell (Latest 2022 or advanced)",
+                "dell lattitude (2016)",
+                "dell new (Latest 2022 or advanced)",
+                "dell lattitude (Latest 2022; Middle 2019 and advanced specifications needed)",
+                "dell lattitude e7440)",
+                "dell lattitude(e7440 required specifications)",
+                "8Gb ram",
+                "512gb - 1024gb hard disk space",
+            ],
+            "specifications for dell latest versions": [
+
+
+
+                {
+                    "model": "2016 u.s.a version",
+                    "established number": "lattitude  e7440",
+                    "launched": "06-07-2016"
+                },
+
+            ]
+        },
+        {
+            "releases": [
+
+
+
+            ]
+        }
+    ]
+}
+
+print("data")
