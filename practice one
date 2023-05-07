@@ -34,4 +34,88 @@ print("Array :", arr)
 arr2d = [[10, 20], [30, 40]]
 
 print("2 Dim - Array :", arr2d)
+#########################################
+# python set
+_7a = {21,31,4,'santosh'}
+
+print(_7a)
+###############
+# for loops
+for i in range(2):
+    print("Hello,hello,hello,how fast")
+    print("Hello,hello,hello")
+##################
+age = 26
+print("my age is " + str(age) + " years old")
+print("you are" , age , "years old" )
+print(f"you are {age} years old")
+############################
+a = [11,21,52,5,532,77]
+for i in a:
+    print(i)
+##########################
+thisdict =	{
+  "city" : "Hyd",
+  "job" : "devops",
+  "company" : "wincin",
+  "joindt" : "0705"
+}
+thisdict.pop("job")
+thisdict.pop("city")
+print(thisdict)
+##################################
+mytuple = ("apple", "banana", "cherry")
+myit = iter(mytuple)
+print(myit)
+print(next(myit))
+print(next(myit))
+#############################
+x,y,z = (3,22,56)
+a = x+y+z
+print(a)
+#############################
+def _name_and_age():
+    name = 'santosh'
+    age = 25
+    return name , age
+
+name, age = _name_and_age()
+
+
+print(name,age)
+print(name)
+print(age)
+################################
+def miles_to_run(minimum_miles):
+    week_1 = minimum_miles + 2
+    week_2 = minimum_miles + 4
+    week_3 = minimum_miles + 6
+    return [week_1, week_2, week_3]
+
+print(miles_to_run(10))
+#########################################
+x = [22,33,45]
+x[0] = 33
+print(x)
+##########################
+# List of vowels
+vowel_list = ['a', 'e', 'i', 'o', 'u']
+
+# Let's find the index of the letter u
+index_of_u = vowel_list.index('u')
+
+# Print the index
+print('The index or position of u in the list is: ', index_of_u)
+####################################
+a = {12,31,91,23,1}
+sum = 0
+for i in (0,4):
+    print(i)
+#################################
+
+_s = (33,1,52,73,21)
+sum = 0
+for i in (0,1,2):
+    for a in _s:
+       print(i,a)
 
