@@ -168,5 +168,21 @@ if b>a and b>c:
 if c>a and c>b:
     print("c is largest")
 #######################################################
+age = int (input("Enter your age? "))
+if age>=18:
+    print("You are eligible to vote !!");
+else:
+    print("Sorry! you have to wait !!");
+############################################
+marks = float(input('enter your marks :'))
 
+if marks>=200:
+    print('your grade is : A');
+elif marks >=160 and marks <200:
+    print('your grade is : B');
+elif marks>=120 and  marks <160:
+    print('your grade is : C');
+else:
+    print('sorry, you are failed ...')
+##############################################
 
