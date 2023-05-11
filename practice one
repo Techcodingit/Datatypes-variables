@@ -185,4 +185,16 @@ elif marks>=120 and  marks <160:
 else:
     print('sorry, you are failed ...')
 ##############################################
+for city in ["vizag", "chennai", "bhopal", "sklm"]:
+    print(city)
+
+city_names = ["vizag", "chennai", "bhopal", "sklm"]
+for city in city_names:
+    print(city)
+else:
+   print("i won't be there")
+
+print("iam in chennai")
+#######################################################
+
 
