@@ -196,5 +196,77 @@ else:
 
 print("iam in chennai")
 #######################################################
+from array import *
+vals = array('i',[4,32,8,-3])
+print(vals)
+#####################
+from array import *
+vals = array('i',[4,32,8,-3])
+print(vals[2])
+##########################################
+# buffer_info find size and address of the array
+from array import *
+vals = array('i',[4,32,8,-3])
+print(vals.buffer_info())
+############################
+from array import *
+vals = array('i',[4,32,8,-3])
+print(vals.typecode)
+###########################
+from array import *
+
+vals = array('i',[4,32,8,-3])
+print(vals.reverse())
+##############################
+from array import *
+vals = array('i',[4,32,8,-3])
+vals.reverse()
+print(vals)
+############################
+# if i want to display all all numbers one by one
+from array import *
+vals = array('i',[4,32,8,-3])
+vals.reverse()
+
+for i in range(3):
+    print(vals[i])
+####################################
+from array import *
+vals = array('u',['s','j','u'])
+
+for s in vals:
+    print(s)
+##############################
+# adding new array to old one
+from array import *
+vals = array('u',['s','j','u'])
+newarray = array(vals.typecode, (a for a in vals))
+for s in vals:
+    print(s)
+##############################################
+from array import *
+arr1 = array('i',[2,42,6,-8])
+
+arr2 = array(arr1.typecode,(a for a in arr1))
+for i in arr2:
+    print(i)
+#############################################
+# relation between two numbers
+a = int(input("enter value of a"))
+b = int(input("enter value of b"))
+if(a==b):
+    print("both are eqal")
+elif(a>b):
+    print("a is greater than b")
+else:
+    print("a is less than b")
+################################
+# simple sysntax of if
+a = 88
+b = 39
+if a > b:
+    print("a is greater than b")
+##############################################
+
 
 
