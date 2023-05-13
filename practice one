@@ -267,6 +267,41 @@ b = 39
 if a > b:
     print("a is greater than b")
 ##############################################
+# relation between two numbers
+a = int(input("enter value of a"))
+b = int(input("enter value of b"))
+if(a==b):
+    print("both are eqal")
+elif(a>b):
+    print("a is greater than b")
+else:
+    print("a is less than b")
+################################
+# simple sysntax of if
+a = 88
+b = 39
+if a > b:
+    print("a is greater than b")
+###################################
+a = 99
+b = 99
+if a > b:
+    print("a is greater than b")
+elif a < b:
+    print("a is eqals to b")
+#############################
+# one line if statement
+if a > b: print("a is gretar than b")
+######################################
+a = 44
+b = 444
+print("A") if a > b else print("b")
+###############################
+# print else statement with 3 condtions
+a = 33
+b = 44
+print("A") if a > b else print("=") if a == b else print("b")
+############################################3
 
 
 
