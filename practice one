@@ -301,7 +301,69 @@ print("A") if a > b else print("b")
 a = 33
 b = 44
 print("A") if a > b else print("=") if a == b else print("b")
-############################################3
+############################################
+# array
+# when we put * to work with all in the array
+from array import *
+vals = array('i',[3,55,3,66,-7])
+print(vals)
+######################
+# print index possision of array
+from array import *
+vals = array('i',[2,45,6,69,-8])
+print(vals[3])
+#############################
+# buffer_info will give you size of array
+from array import *
+vals = array('i',[2,45,6,69,-8])
+print(vals.buffer_info())       # output (2950635708176, 5)
+#################################
+from array import *
+arr = array('i',[4,55,36,36,-8])
+for i in range(4):
+    print(arr)                      # arrar print 4 times
+#############################
+from array import *
+arr = array('i',[4,55,36,36,-8])
+for i in range(4):
+    print(arr[i])
+#####################################
+# when we don't know howmany values there in index use len method
+from array import *
+arr = array('i',[6,55,-62,76,-5])
+for i in range(len(arr)):
+    print(arr[i])
+################################
+# typecode is used to copy values from array1 to array2
+from array import *
+arr1 = array('i',[2,23,-32,87,99])
+
+arr2 = array(arr1.typecode,(a for a in arr1))
+for i in arr2:
+    print(i)
+###############################
+# add number or float using append method
+from array import *
+arr = array('i',[22,33,51,-52,16,-4])
+arr.append(222)
+for i in arr:
+    print(i)
+#################################
+#  at the same time we use pop method to remove value of index possesion
+from array import *
+arr = array('d',[2.2,42,3.1,5.2,6.8])
+arr.pop(2)
+for i in arr:
+    print(i)
+######################################
+# using remove method to remove value
+from array import *
+arr = array('d',[23,44,5.5,3.5,33,5])
+arr.remove(5.5)
+for i in arr:
+    print(i)
+##################################################
+
 
 
 
